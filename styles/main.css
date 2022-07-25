@@ -120,8 +120,13 @@ h1,
   margin-left: 1em;
 }
 
+.container .right .mainInfo h2 {
+  font-size: 1em;
+  margin-left: 2em;
+}
+
 @media screen and (max-width: 576px) {
-  .container .right .mainInfo h1 {
+  .container .right .mainInfo h1, h2 {
     margin-left: 0;
   }
 }
